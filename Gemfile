@@ -39,3 +39,7 @@ gem 'jquery-rails'
 
 gem 'omniauth-twitter'
 gem 'omniauth-scaffold'
+
+group :production do
+  gem 'pg'
+end
